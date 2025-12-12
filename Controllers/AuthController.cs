@@ -89,7 +89,7 @@ namespace technova_ecommerce.Controllers
                 new Claim(ClaimTypes.Role, user.Role ?? "Public"),
             };
 
-            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF32.GetBytes("class-work-5E"));
+            var key = new SymmetricSecurityKey(System.Text.Encoding.UTF32.GetBytes("Classworks 5-E"));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
